@@ -1,52 +1,34 @@
-# Google Image Scraper
-A library created to scrape Google Images.<br>
-If you are looking for other image scrapers, JJLimmm has created image scrapers for Gettyimages, Shutterstock, and Bing. <br>
-Visit their repo here: https://github.com/JJLimmm/Website-Image-Scraper
+# Vision AI Dataset Creation Project
 
-## Pre-requisites:
-1. Google Chrome
-2. Python3 packages (Pillow, Selenium, Requests)
-3. Windows OS (Other OS is not tested)
+## Introduction
+Creating diverse test data for vision AI is challenging. Traditional methods involve manual website scanning, prone to biases. Existing datasets often lack specificity, restrictions on the number of images, and might face copyright issues. Our project proposes an NLP-driven solution to revolutionize dataset creation, particularly for emotion detection.
 
-## Setup:
-1. Open command prompt
-2. Clone this repository (or [download](https://github.com/ohyicong/Google-Image-Scraper/archive/refs/heads/master.zip))
-    ```
-    git clone https://github.com/ohyicong/Google-Image-Scraper
-    ```
-3. Install Dependencies
-    ```
-    pip install -r requirements.txt
-    ```
-4. Edit your desired parameters in main.py
-    ```
-    search_keys         = Strings that will be searched for
-    number of images    = Desired number of images
-    headless            = Chrome GUI behaviour. If True, there will be no GUI
-    min_resolution      = Minimum desired image resolution
-    max_resolution      = Maximum desired image resolution
-    max_missed          = Maximum number of failed image grabs before program terminates. Increase this number to ensure large queries do not exit.
-    number_of_workers   = Number of sectioned jobs created. Restricted to one worker per search term and thread.
-    ```
-4. Run the program
-    ```
-    python main.py
-    ```
+## Scope of Project
+1. **Query Expansion:** Enhancing search queries for accuracy.
+2. **Image Scraping:** Automated methods for data retrieval.
+3. **Model Assessment:** Evaluating dataset quality using complex models.
+4. **Data Augmentation:** Enhancing dataset diversity through augmentation.
 
-## Usage:
-This project was created to bypass Google Chrome's new restrictions on web scraping from Google Images. 
-To use it, define your desired parameters in main.py and run through the command line:
-```
-python main.py
-```
+## Methodology
+Addressing the challenge of laborious and time-consuming creation of test data for various vision AI solutions, this project aims to streamline the process through innovative methodologies. The primary focus is on enhancing efficiency and effectiveness in web scraping and image extraction, while also optimizing dataset quality for diverse use cases.
 
-## Youtube Video:
-[![IMAGE ALT TEXT](https://github.com/ohyicong/Google-Image-Scraper/blob/master/youtube_thumbnail.PNG)](https://youtu.be/QZn_ZxpsIw4 "Google Image Scraper")
+1. **Query Expansion Techniques:** Leveraging NLP models, we expand queries to retrieve a broader spectrum of keywords, facilitating comprehensive internet image searches and enhancing dataset richness.
 
+2. **Image Scraper Methods:** Employing automated solutions via Selenium, Google, and Flicker API, we automate image dataset creation, ensuring adherence to specific requirements, thus eliminating manual labor and enhancing efficiency.
 
-## IMPORTANT:
-Although it says so in the video, this program will not run through VSCode. It must be run in the command line.
+3. **Complex Model Assessment for Dataset Validation:** Employing a sophisticated Emotion Detection model founded on Complex Computer Vision and AI, we rigorously evaluate dataset quality, emphasizing precision and diversity for optimal model performance.
 
-This program will install an updated webdriver automatically. There is no need to install your own.
+4. **Data Augmentation:** Implementing image augmentation techniques such as rotation, flipping, and scaling, we diversify and enrich the quality of the dataset, improving model robustness and performance.
 
-### Please like, subscribe, and share if you found my project helpful! 
+This methodology ensures efficient, accurate, and diverse creation of test data for vision AI solutions, addressing the challenges posed by manual labor and generic search engines.
+
+## Results
+The culmination of the project yields a comprehensive and diverse dataset, tailored specifically for various deep learning and AI endeavors, emphasizing object-centricity and richness in data representation.
+Our generated datasets demonstrate superior performance in terms of accuracy percentages compared to existing online datasets. Through rigorous testing for emotion detection and YOLOv5 detection, our solution consistently outperforms competitors, yielding higher accuracy rates. This improvement translates to better accuracy in AI models and projects.
+
+## Conclusion
+Our project represents a significant leap forward in AI, particularly in computer vision and emotion detection. Leveraging NLP for query expansion and automating dataset creation via web scraping, we've addressed the critical need for diverse, high-quality datasets. This streamlined approach ensures adherence to requirements, enhancing accuracy. Through image augmentation, we've bolstered dataset richness and model robustness. Future work involves updating Selenium web scraping scripts to adapt to changes in HTML structures and considering advancements in search engine behavior, potentially eliminating the need for noise-checking code. This work lays groundwork for innovation, promising real-world impact and pushing AI boundaries.
+
+## References
+1. Dikmans, B., & Kang, D. (2023). A Brief Survey into the Field of Automatic Image Dataset Generation through Web Scraping and Query Expansion.
+2. Niu, Qingli, et al. "Web Scraping Tool For Newspapers And Images Data Using Jsonify." Journal of Applied Science and Engineering 26.4 (2022): 465-474.
