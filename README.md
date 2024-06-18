@@ -22,7 +22,7 @@ Addressing the challenge of laborious and time-consuming creation of test data f
 
 This methodology ensures efficient, accurate, and diverse creation of test data for vision AI solutions, addressing the challenges posed by manual labor and generic search engines.
 
-![Augumentation](result Images/aug.PNG)
+<img align="right" alt="coding" width="400" src = "result Images/aug.png">
 
 
 ## Results
