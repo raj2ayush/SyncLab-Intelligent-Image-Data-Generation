@@ -1,4 +1,4 @@
-# Vision AI Dataset Creation Project
+# SyncLab : Intelligent Image Dataset Generation System
 
 ## Introduction
 Creating diverse test data for vision AI is challenging. Traditional methods involve manual website scanning, prone to biases. Existing datasets often lack specificity, restrictions on the number of images, and might face copyright issues. Our project proposes an NLP-driven solution to revolutionize dataset creation, particularly for emotion detection.
