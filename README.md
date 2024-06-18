@@ -3,6 +3,8 @@
 ## Introduction
 Creating diverse test data for vision AI is challenging. Traditional methods involve manual website scanning, prone to biases. Existing datasets often lack specificity, restrictions on the number of images, and might face copyright issues. Our project proposes an NLP-driven solution to revolutionize dataset creation, particularly for emotion detection.
 
+![MasterHead](https://github.com/raj2ayush/SyncLab-Intelligent-Image-Data-Generation/blob/e0c7436a242778ef33d7f0b8741781d867284dda/result%20Images/WorkFlow.png)
+
 ## Scope of Project
 1. **Query Expansion:** Enhancing search queries for accuracy.
 2. **Image Scraping:** Automated methods for data retrieval.
@@ -21,13 +23,17 @@ Addressing the challenge of laborious and time-consuming creation of test data f
 4. **Data Augmentation:** Implementing image augmentation techniques such as rotation, flipping, and scaling, we diversify and enrich the quality of the dataset, improving model robustness and performance.
 
 This methodology ensures efficient, accurate, and diverse creation of test data for vision AI solutions, addressing the challenges posed by manual labor and generic search engines.
+![MasterHead](https://github.com/raj2ayush/SyncLab-Intelligent-Image-Data-Generation/blob/e0c7436a242778ef33d7f0b8741781d867284dda/result%20Images/query%20expan.PNG)
 
-<img align="right" alt="coding" width="400" src = "result Images/aug.png">
+![MasterHead](https://github.com/raj2ayush/SyncLab-Intelligent-Image-Data-Generation/blob/e0c7436a242778ef33d7f0b8741781d867284dda/result%20Images/aug.PNG)
 
 
 ## Results
 The culmination of the project yields a comprehensive and diverse dataset, tailored specifically for various deep learning and AI endeavors, emphasizing object-centricity and richness in data representation.
 Our generated datasets demonstrate superior performance in terms of accuracy percentages compared to existing online datasets. Through rigorous testing for emotion detection and YOLOv5 detection, our solution consistently outperforms competitors, yielding higher accuracy rates. This improvement translates to better accuracy in AI models and projects.
+
+![MasterHead](https://github.com/raj2ayush/SyncLab-Intelligent-Image-Data-Generation/blob/e0c7436a242778ef33d7f0b8741781d867284dda/result%20Images/result1.PNG)
+![MasterHead](https://github.com/raj2ayush/SyncLab-Intelligent-Image-Data-Generation/blob/e0c7436a242778ef33d7f0b8741781d867284dda/result%20Images/result2.PNG)
 
 ## Conclusion
 Our project represents a significant leap forward in AI, particularly in computer vision and emotion detection. Leveraging NLP for query expansion and automating dataset creation via web scraping, we've addressed the critical need for diverse, high-quality datasets. This streamlined approach ensures adherence to requirements, enhancing accuracy. Through image augmentation, we've bolstered dataset richness and model robustness. Future work involves updating Selenium web scraping scripts to adapt to changes in HTML structures and considering advancements in search engine behavior, potentially eliminating the need for noise-checking code. This work lays groundwork for innovation, promising real-world impact and pushing AI boundaries.
