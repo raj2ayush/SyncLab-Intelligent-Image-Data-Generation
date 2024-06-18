@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="/static/style.css" />
+        <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='static.css')}}" /> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+
+    <body>
+        <div class="heading">
+            <div class="worklet-name">
+                Image data generation & Tagging using AI
+            </div>
+        </div>
+        {% if bquery %}
+        <div class="subheading">Base query: {{ bquery }}</div>
+        {% endif %} {% if equery %}
+        <div class="subheading">Expanded query: {{ equery }}</div>
+        {% endif %} {% if processed %}
+        <div class="subheading">Downloaded {{ number_of_images }} image(s)</div>
+        {% endif %}
+        <div class="container">
+            <div class="title">Search Query Fields</div>
+            <div class="content">
+                <form action="/" method="POST">
+                    <div class="user-details">
+                        <div class="input-box" style="width: 100%">
+                            <span class="details">Search Query</span>
+                            <input
+                                type="text"
+                                placeholder="Enter the base search query"
+                                name="query"
+                                id = "query"
+                                required />
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Number of images</span>
+                            <input
+                                type="number"
+                                placeholder="Enter the number of images"
+                                name="count"
+                                id="count"
+                                required />
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Image Resolution(in)</span>
+                            <span class="res"
+                                ><input
+                                    type="number"
+                                    placeholder="w"
+                                    style="width: 46%"
+                                    name="width" />
+                                X
+                                <input
+                                    type="number"
+                                    placeholder="h"
+                                    style="width: 46%"
+                                    name="height"
+                            /></span>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Image Color</span>
+                            <label for="color-names"></label>
+                            <select name="color" id="color-names">
+                                <option value="">Any</option>
+                                <option value="red">Red</option>
+                                <option value="orange">Orange</option>
+                                <option value="yellow">Yellow</option>
+                                <option value="green">Green</option>
+                                <option value="blue">Blue</option>
+                                <option value="wb">White & Black</option>
+                                <option value="purple">Purple</option>
+                                <option value="brown">Brown</option>
+                                <option value="pink">Pink</option>
+                            </select>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Image Format</span>
+                            <label for="image-format"></label>
+                            <select name="format" id="image-format">
+                                <option value="">ANY</option>
+                                <option value="jpeg">JPEG</option>
+                                <option value="png">PNG</option>
+                                <option value="svg">SVG</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <input type="submit" value="Search" />
+                    </div>
+                </form>
+                <form action="/validate" method="GET">
+                    <div class="button">
+                        <input type="submit" value="Validate" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+names:
+- F1
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: f1annotations
+  url: https://universe.roboflow.com/annotations-ilqg7/f1annotations/dataset/2
+  version: 2
+  workspace: annotations-ilqg7
+test: ../test/images
+train: ../train/images
+val: ../valid/images
