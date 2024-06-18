@@ -22,6 +22,9 @@ Addressing the challenge of laborious and time-consuming creation of test data f
 
 This methodology ensures efficient, accurate, and diverse creation of test data for vision AI solutions, addressing the challenges posed by manual labor and generic search engines.
 
+![Augumentation](result Images/aug.PNG)
+
+
 ## Results
 The culmination of the project yields a comprehensive and diverse dataset, tailored specifically for various deep learning and AI endeavors, emphasizing object-centricity and richness in data representation.
 Our generated datasets demonstrate superior performance in terms of accuracy percentages compared to existing online datasets. Through rigorous testing for emotion detection and YOLOv5 detection, our solution consistently outperforms competitors, yielding higher accuracy rates. This improvement translates to better accuracy in AI models and projects.
